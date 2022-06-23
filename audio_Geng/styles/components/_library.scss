@@ -1,0 +1,40 @@
+.library {
+  max-height: 100vh;
+  min-height: 100vh;
+  width: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(300deg, #525160, #3b3951, #25252d);
+  overflow: auto;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+  h2 {
+    margin: 1rem 0.5rem;
+  }
+  .add-song {
+    width: 100%;
+    min-height: 10vh;
+    text-align: center;
+    line-height: 10vh;
+    white-space: nowrap;
+    font-size: 1.5rem;
+    background-color: #333144;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+      background-color: #3b2dba;
+    }
+  }
+}
+.library-opened {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media screen and (max-width: 400px) {
+  .library {
+    width: 100vw;
+  }
+}
