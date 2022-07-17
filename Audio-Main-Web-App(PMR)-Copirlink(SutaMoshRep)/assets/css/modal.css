@@ -1,0 +1,38 @@
+.fade-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(126, 255, 141, 0.69);
+    opacity: none;
+    width: 700px;
+    height: 400px;
+}
+
+.modal-window {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 50px;
+}
+
+.content-hidden {
+    display: none;
+}
+.modal-img{
+    width: 200px;
+    height: 50px;
+}
+.hidden {
+    display: none;
+}
+.list-content {
+    background-color: rgb(126, 118, 118);
+    width: 100px;
+    height: 50px;
+    border-radius: 12px;
+    color: #1e1e1e;
+}
